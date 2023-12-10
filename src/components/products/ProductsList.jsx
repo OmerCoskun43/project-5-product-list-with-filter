@@ -8,7 +8,7 @@ import { useState } from "react";
 
 const ProductsList = () => {
   const [search, setSearch] = useState("");
-  const [toggle, setToggle] = useState(true);
+  const [toggle, setToggle] = useState(false);
 
   // console.log(products);
 
