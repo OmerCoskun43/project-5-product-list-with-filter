@@ -47,6 +47,7 @@ const Men = () => {
                       <span> $</span> {product.price}{" "}
                     </Card.Title>
                     <MdFavorite
+                      className="fav"
                       onClick={(e) => handleFav(product.id, e)}
                       size={30}
                     />

@@ -48,6 +48,7 @@ const Jewelery = () => {
                       <span> $</span> {product.price}{" "}
                     </Card.Title>
                     <MdFavorite
+                      className="fav"
                       size={30}
                       onClick={(e) => handleFav(product.id, e)}
                     />

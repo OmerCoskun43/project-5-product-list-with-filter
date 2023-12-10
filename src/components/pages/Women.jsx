@@ -50,6 +50,7 @@ const Women = () => {
                     <MdFavorite
                       onClick={(e) => handleFav(product.id, e)}
                       size={30}
+                      className="fav"
                     />
                   </Card.Header>
                   <Card.Img

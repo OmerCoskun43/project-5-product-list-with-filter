@@ -45,12 +45,13 @@ const ProductsList = () => {
                   className="  col col-lg-3 col-md-4 col-sm-6  rounded-2  card"
                   role="button"
                 >
-                  <Card.Header className="d-flex justify-content-between">
+                  <Card.Header className=" d-flex justify-content-between">
                     <Card.Title>
                       {" "}
                       <span> $</span> {product.price}{" "}
                     </Card.Title>
                     <MdFavorite
+                      className="fav"
                       onClick={(e) => handleFav(product.id, e)}
                       type="button"
                       size={30}
