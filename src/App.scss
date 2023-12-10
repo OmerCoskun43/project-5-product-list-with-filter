@@ -1,0 +1,9 @@
+@import "./scss/reset";
+@import url("https://fonts.googleapis.com/css2?family=Orbitron&family=Passero+One&display=swap");
+
+body {
+  background-image: linear-gradient(to top, #0edfd4 0%, #5d83ec 100%);
+  min-height: 100vh;
+  font-family: "Passero One", sans-serif;
+  font-weight: bold;
+}

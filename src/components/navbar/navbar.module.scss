@@ -1,0 +1,29 @@
+.cont {
+  padding: 1rem;
+  text-align: center;
+  h1 {
+    color: yellow;
+  }
+
+  .nav {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+
+    .nvl {
+      text-decoration: none;
+      padding: 0.5rem 1rem;
+      border-radius: 1rem;
+    }
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .nav {
+    flex-direction: column;
+    .nvl {
+      width: 80%;
+      margin: auto;
+    }
+  }
+}
